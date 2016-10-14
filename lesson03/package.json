@@ -1,0 +1,16 @@
+{
+  "name": "lesson03",
+  "version": "0.1.0",
+  "description": "just for study node.js, lesson 03",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KunYi",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "cheerio": "~0.22.0",
+    "express": "~4.14.0",
+    "superagent": "~2.3.0"
+  }
+}
