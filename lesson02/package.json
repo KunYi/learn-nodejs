@@ -1,0 +1,19 @@
+{
+  "name": "lesson02",
+  "version": "0.1.0",
+  "description": "just for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "test1"
+  },
+  "keywords": [
+    "lesson02",
+    "test"
+  ],
+  "author": "KunYi",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "utility": "~1.8.0",
+    "express": "~4.14.0"
+  }
+}
