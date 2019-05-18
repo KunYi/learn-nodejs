@@ -1,6 +1,6 @@
 {
   "name": "lesson03",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "just for study node.js, lesson 03",
   "main": "app.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "KunYi",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "cheerio": "~0.22.0",
-    "express": "~4.14.0",
-    "superagent": "~2.3.0"
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.0",
+    "superagent": "^5.0.5"
   }
 }
