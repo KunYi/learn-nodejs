@@ -12,7 +12,7 @@ superagent.get(cnodeUrl)
 	.end(function (err, sres) {
 	// exception 
 	if (err) {
-		return next(err);
+		return console.error(err);
 	}
 	
 	var topicUrls = [];
@@ -25,6 +25,7 @@ superagent.get(cnodeUrl)
 	});
 
 	console.log(topicUrls);
+	console.log(topicUrls.length)
 
 	var ep = new eventproxy();
 	// prepare callback function
