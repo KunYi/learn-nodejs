@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "just for study node.js, lesson 04",
   "main": "app.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
