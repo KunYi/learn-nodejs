@@ -1,0 +1,23 @@
+{
+  "name": "lesson08",
+  "version": "0.0.1",
+  "description": "just for me study, lesson 08",
+  "main": "app.js",
+  "repository": {
+    "private": true
+  },
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "KunYi",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
