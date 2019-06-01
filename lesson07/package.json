@@ -1,0 +1,14 @@
+{
+  "name": "lesson07",
+  "version": "0.0.1",
+  "description": "just for me study, lesson07",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KunYi",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
