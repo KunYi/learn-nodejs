@@ -1,6 +1,7 @@
 
-import * as async from 'async';
+'use strict';
 
+import * as async from 'async';
 
 var conCurrencyCount = 0;
 var fetchUrl = function (url: string, callback: (err: Error, url: string) => void)  {
