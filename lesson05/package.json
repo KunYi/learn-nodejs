@@ -1,0 +1,14 @@
+{
+  "name": "lesson05",
+  "version": "0.0.1",
+  "description": "node js for lesson05",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "KunYi",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "async": ">=3.0.1"
+  }
+}
