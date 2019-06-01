@@ -7,5 +7,9 @@
     "test": "node main.js"
   },
   "author": "KunYi",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "should": "^13.2.3"
+  }
 }
