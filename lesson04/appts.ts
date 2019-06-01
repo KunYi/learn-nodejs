@@ -25,8 +25,10 @@ superAgent.get(cnodeUrl)
         console.log(topicUrls.length);
         let ep = eventProxy.EventProxy.create()
         // prepare callback function
-        ep.after('topic_html', topicUrls.length, function( topics: any): void {
-            topics = topics.map(function (topicPair: any[]): any {
+        ep.after('topic_html', topicUrls.length, function( topics: string[]): void {
+            let result = topics.map(function (topicPair: string):
+                {title:string, href:string, comment1:string} {
+
                 let topicUrl = topicPair[0];
                 let topicHtml = topicPair[1];
                 let $ = cheerIo.load(topicHtml);
@@ -37,7 +39,7 @@ superAgent.get(cnodeUrl)
                   });
             })
             console.log('final:');
-            console.log(topics);
+            console.log(result);
         })
 
         topicUrls.forEach(function (topicUrl: string): void {
