@@ -1,8 +1,9 @@
 
-import * as async from 'async'
+import * as async from 'async';
+
 
 var conCurrencyCount = 0;
-var fetchUrl = function (url: string, callback: (error: Error, url: string) => void)  {
+var fetchUrl = function (url: string, callback: (err: Error, url: string) => void)  {
     // delay is randrom and less 2000
     let delay = (Math.random() * 10000000) % 2000;
     conCurrencyCount++;
@@ -14,17 +15,17 @@ var fetchUrl = function (url: string, callback: (error: Error, url: string) => v
         }, delay);
 };
 
-var urls = [];
-const fakeUrl = 'http://datasource_';
+var urls: string[] = [];
+const fakeUrl: string = 'http://datasource_';
 
 for (var i = 0; i < 30; i++) {
     urls.push(fakeUrl + i);
 }
 
 console.log(urls);
-async.mapLimit(urls, 5, function (url: string, callback: (error: Error, url: string) => void ) {
+async.mapLimit(urls, 5, function (url: string, callback: (error: Error, url: string) => void) {
     fetchUrl(url, callback);
-}, function (err: Error , result: string[]): void {
-    console.log('final:')
-    console.log(result)
+}, function (err: Error, result: string[]): void {
+    console.log('final:');
+    console.log(result);
 })
