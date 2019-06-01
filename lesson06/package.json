@@ -4,12 +4,16 @@
   "description": "node js learning of lesson06",
   "main": "main.js",
   "scripts": {
-    "test": "node main.js"
+    "test": "mocha",
+    "cover": "nyc npm run test",
+    "cover:report": "nyc report --reporter=lcov",
+    "all": "npm run cover && npm run cover:report"
   },
   "author": "KunYi",
   "license": "BSD-2-Clause",
   "devDependencies": {
     "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
     "should": "^13.2.3"
   }
 }
