@@ -1,3 +1,4 @@
+"use strict";
 import * as superAgent from 'superagent'
 import * as cheerIo from 'cheerio'
 import * as eventProxy from 'eventproxy'
