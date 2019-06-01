@@ -7,7 +7,7 @@
     "private": true
   },
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "mocha"
   },
   "author": "KunYi",
   "license": "BSD-2-Clause",
