@@ -1,6 +1,14 @@
 'use strict';
 
 var fibonacci = function (n) {
+    // for error check
+    if (typeof(n) != 'number')
+        throw new Error('n should be a number');
+    if (n < 0)
+        throw new Error('n should >= 0');
+    if (n > 10)
+        throw new Error('n should <= 10');
+
     if (n === 0)
         return 0;
 
