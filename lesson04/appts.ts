@@ -12,7 +12,7 @@ superAgent.get(cnodeUrl)
             return console.error(err);
         }
     
-        let topicUrls = [];
+        let topicUrls: string[] = [];
         let $ = cheerIo.load(sres.text);
 
         $('#topic_list .topic_title').each(function (idx: number, element: CheerioElement): void{
