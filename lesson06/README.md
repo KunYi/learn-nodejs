@@ -1,6 +1,6 @@
 ### my modify note
 
-use 'nyc' to replace old scholl 'istanbul' command
+use 'nyc' to replace old school 'istanbul' command
 more simply use
 
 see the below picture
