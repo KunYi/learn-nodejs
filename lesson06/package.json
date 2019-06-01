@@ -1,0 +1,11 @@
+{
+  "name": "lesson06",
+  "version": "0.0.1",
+  "description": "node js learning of lesson06",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "KunYi",
+  "license": "BSD-2-Clause"
+}
