@@ -4,11 +4,15 @@
   "description": "just for me study, lesson07",
   "main": "none",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha-headless-chrome -f ./vendor/index.html"
+  },
+  "repository": {
+    "private": true
   },
   "author": "KunYi",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "mocha-headless-chrome": "^2.0.2"
   }
 }
