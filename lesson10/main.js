@@ -14,7 +14,7 @@ var int3 = function (str) {
 
 var suite = new Benchmark.Suite;
 
-var number = '100';
+var number = '1000';
 
 suite
 .add('+', function() {
