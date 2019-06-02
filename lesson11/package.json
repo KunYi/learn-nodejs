@@ -10,5 +10,19 @@
     "test": "node main.js"
   },
   "author": "KunYi",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "eslintConfig": {
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": "off",
+      "strict": "error"
+    }
+  }
 }
